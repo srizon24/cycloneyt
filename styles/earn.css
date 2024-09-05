@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: #2c2c2c;
+    padding: 1.1rem;
+}
+nav .links a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16.7rem;
+    border: 1px solid #fff; 
+    padding: 15px;
+    border-radius: 6px;
+
+}
+nav .links a:hover{
+    background-color: #ffff;
+    color: black;
+    transition: 0.6s;
+}
+nav .links a:active{
+    color: red;
+}
+h1{
+    background-color: chartreuse;
+    padding: 34px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+    border-radius: 7px;
+}
+.tasks{
+    background-color: crimson;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.task_shower{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    margin: 6rem ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 15px;
+}
+.payment_form{
+    background-color: #2c2c2c;
+    padding: 5rem;
+    border-radius: 16px;
+    text-align: center;
+}
+
+input{
+    margin: 12px;
+    padding: 15px 50px; 
+    border-radius: 6px;
+    color: rgb(255, 26, 26);
+    background-color: #2c2c2c;
+    border-bottom: 3px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;  
+}
+input::placeholder{
+    color: green;
+
+}
+#submitButton{
+    padding: 10px 1.2rem;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #2c2c2c;
+    color: white;
+}
+#submitButton:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.payment_request_shower{
+    background-color: aqua;
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 1rem 20px;
+    border-radius: 10px;
+}
